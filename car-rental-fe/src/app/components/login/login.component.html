@@ -1,0 +1,12 @@
+<div class="container text-center mt-5 col-md-5">
+    <div class="form-control">
+        <img class="mb-4" src="assets/user-png-icon.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Name" required="required" [(ngModel)]="username">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control mt-2" placeholder="Password" required="required" [(ngModel)]="password">
+      <button class="btn btn-lg btn-primary btn-block mt-2" type="button" (click)="onLogin()">Sign in</button>
+
+    </div>
+</div>
